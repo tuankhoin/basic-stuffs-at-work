@@ -1,6 +1,14 @@
 # Basic stuffs at work
 
 ## Git CLI
+* Daily cycle of a progress update:
+```
+git checkout main_working_branch
+git fetch
+git pull
+git checking your_working_branch
+git merge main_working_branch
+```
 
 * Committing to a wrong branch:
 ```
