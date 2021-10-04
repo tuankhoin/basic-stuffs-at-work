@@ -40,12 +40,12 @@ git commit -m "...." # as before
 * Sample script of running all `sql` files in a directory, credit to Barry Wu:
 ```
 #!/bin/sh
-cd /opt/audio-cc/sql/up
+cd /dir
 for f in `ls *sql`
 do
  read -p "Continue? (ctrl+c to quit)" yn;
  echo "Processing $f"
- mysql audiocc < $f
+ mysql database_name < $f
  # do something on $f
 done
 ```
