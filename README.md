@@ -24,9 +24,13 @@ git stash apply 0  # I assume the work is saved in '0'. This will bring everythi
 git add *;
 git commit -m "...." # as before
 ```
+or
+```
+git checkout -b new_branch
+git add .
+```
 * `git branch <name>` bases on your current branch by default.
 * Why `-m` in `git commit -m "Message"`? M stands for message.
-* 
 
 ## Linux Commands
 
