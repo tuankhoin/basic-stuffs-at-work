@@ -29,7 +29,13 @@ or
 git checkout -b new_branch
 git add .
 ```
+* Catch up with main branch:
+```
+git checkout working_branch
+git rebase main
+```
 * `git branch <name>` bases on your current branch by default.
+* `git diff branch1 branch2` Difference between branches.
 * Why `-m` in `git commit -m "Message"`? M stands for message.
 
 ## Linux Commands
