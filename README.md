@@ -34,6 +34,14 @@ git add .
 git checkout working_branch
 git rebase main
 ```
+* Stashing changes:
+```
+git stash save <name>   Stash
+git stash list          Show all available stashed changes
+git stash apply <index/name>      Apply stashed change, but don't remove it from stashed list
+git stash pop                     Like above, but remove from stash list
+git stash show -p <index/name>    If you only want to see how many lines changes, leave -p out
+```
 * `git branch <name>` bases on your current branch by default.
 * `git diff branch1 branch2` Difference between branches.
 * Why `-m` in `git commit -m "Message"`? M stands for message.
