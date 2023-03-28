@@ -6,7 +6,7 @@
 git checkout main_working_branch
 git fetch
 git pull
-git checking your_working_branch
+git checkout your_working_branch
 git merge main_working_branch
 ```
 
